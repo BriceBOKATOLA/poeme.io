@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RodsonPoeme</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/rodson.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.min.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="light-theme">
+    <!--
+    - #HEADER
+  -->
+
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <a href="#">
+            <img
+              src="./assets/images/rodson.png" alt="RodsonEBANGA logo"width="250"  height="70" class="logo-light"
+            />
+            <img
+              src="./assets/images/rhode.png" alt="RodsonEBANGA logo"  width="250" height="70" class="logo-dark"
+            />
+          </a>
+
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="index.html" class="nav-link">Accueil</a>
+              </li>
+
+              <li>
+                <a href="#poeme" class="nav-link">Poeme/ Slam</a>
+              </li>
+
+              <li>
+                <a href="#Contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Menu principal</p>
+
+              <ul>
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#poeme" class="nav-link">Poeme/ Slam</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#Contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!--
+      - #HERO SECTION
+    -->
+
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">
+              Je suis<b>Rodson&nbsp;EBANGA</b>. <br /> Developer Web 
+            </h1>
+
+            <p class="h3">
+              Spécialisé dans <abbr title="Accessibility">la</abbr>
+              Creéation de site et application web. <br> Ceci est mon site de poemes et de Slams 
+            </p>
+
+            <div class="btn-group">
+              <a href="mailto:ebangarodmilson@gmail.com" class="btn btn-primary">Me contacter</a>
+              <a href="#" class="btn btn-secondary">À propos de moi</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img
+                src="./assets/images/rodsonEB.png" alt="RodsonEBANGA" class="hero-img"
+              />
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <!--
+          - BLOG SECTION
+        -->
+
+          <div id="poeme" class="blog">
+            <h2 class="h2">Dernier poèmes</h2>
+
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/espoir.jpg"
+                    alt="iamge sur l'espoir"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">poème</button>
+
+                  <h3>
+                    <a href="espoir.html" class="h3">
+                      L'espoir
+                    </a>
+                  </h3>
+
+                  <p class="blog-text">
+                    L'espoir, voilà ce que j'ai appris
+                    L'espoir, voilà ce qui fait vivre
+                    Oui, on tombe, oui on échoue, oui parfois on fout en l'air ce qu'on touche.
+                    Mais les instants que nous vivons sont tous reliés les uns aux autres par la certitude que ce que nous ferons dans les jours, les semaines ou le's vies futures amèneront quelgue chose en plus, quelque chose qui nous dépasse.
+                    Voilà le pouvoir de l'espoir.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">10 Jan , 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/amour.png"
+                    alt="image de rodson sur l'amour"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">poème</button>
+
+                  <h3>
+                    <a href="amour.html" class="h3">L'amour c'est le soleil</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    L'amour c'est le soleil et les nuages
+                    C'est dire adieu à l'ermitage
+                    C'est <em>"ma lotus"</em>,  <em>"ma pomme verte"</em> et mettre un peu de sel dans de l'eau mais toujours beaucoup de soleil.
+                    C'est des journées sans pareille.
+                    L'amour c'est aussi avoir le corps comme un volcan pour faire pétiller les cœurs, c'est une dose de câlins par heure, des bisous dans le cou.
+                    C'est les rires, les pleures entre deux. C'est une chaîne touiours ouverte.
+                    Un regard suspendu, une main offerte.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">23 Mar, 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT2M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fin du 2e poeme  -->
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/mesquestions.jpg"
+                    alt="Accessibility Tips for Web Developers"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Slam</button>
+
+                  <h3>
+                    <a href="estceque.html" class="h3"
+                      >Mes questios sur toi</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Est-ce que c'est une erreur de t'avoir croisé ? 
+                    Est-ce que mes larmes avaient tord de couler ?
+                    Pourquoi ma vie ne me dit pas l'avenir ?
+                    Pourquoi quand je fais quelque chose, je m'attends au pire ?
+                    Pourquoi dans la vie, il y a des problèmes mais pas de solution ?
+                    Pourquoi je me pose toujours des questions ?
+                    Quand j'étais tranquille dans ma vie ?
+                    Quand l'amour d'une personne m'a suffit ?
+                    Quelle personne me rendra le sourire?
+                    Qui peut me dire « je t'aime » sans me mentir ?
+                    Qui sera la femme qui pourra me dire je t'aime ?
+                    C'est qui la personne qui m'admire sans haine ?
+                    La femme parfaite existe-t-elle ?
+                    La femme qu'il me faut, viendra t'elle ?
+                    Pourquoi je cherche à trouver ?
+                    Une go parfaite ou une stylé ?
+                    Pourquoi pas une fille pour jouer ?
+                    Pourquoi pas une fille pour aimer ?
+                    Pourquoi je ne pense qu'à faire souffrir les ger
+                    Pourquoi je veux les faire souffrir sans raison !
+                    Où est le mec qui était en moi ?
+                    Où est le garçon qui peut revenir ?
+                    Quand ? Pourquoi pas ?
+                    
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-28"> 28 Aoû, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fin de slam sur les questions  -->
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/expliquer.jpg"
+                    alt="image explication"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Poeme</button>
+
+                  <h3>
+                    <a href="Expliquer.html" class="h3"
+                      >Expliquer</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Expliquer,
+                    On ne peut pas toujours expliquer ce qu'on ressent,
+                    Parce que ce qui est dans nos coeurs est souvent plus fort, pour ne pas dire plus intense que nos mots.
+                    c'est par peur
+                    de contrarier les autres ou les
+                    déranger si vous leur exprimez vos sentiments.
+                    Et la citation « la vérité est toujours bonne à dire » change de sens.
+                    Dissimuler ses émotions peut non seulement mener à la tristesse, mais aussi à l'anxiété...
+                    Voilà ce que plusieurs humains accepte par amour, peur, respect, dégoût...
+                    
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-20">20 Nov, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/compagne.jpg"
+                    alt="Compagnon et amie de tous les jours"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Slam</button>
+
+                  <h3>
+                    <a href="compagnon.html" class="h3">Compagnon et amie de tous les jours</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Compagnon et amie de tous les jours.
+                    ô compagne de l'homme et sa plus douce et tendre amie !
+                    Femme de toute nature et région qu'un Dieu d'amour mit sur notre chemin, Et qui dans ce labeur qu'on appelle la vie,
+                    Quand notre cour faiblit, nous tendez votre main :
+                    Rester toujours auprès de nous femme, car tout en vous nous lie, même sans liens;
+                    Sans vous notre bonheur est passager et vain;
+                    Et, lorsque nous souffrons, notre douleur s'oublie par votre présence et vos soins.
+                    À votre imperfections ajoute le charisme,
+                    El los coups do la vio n'artoindront pas voire front l
+                    radieux.
+                    Qui ne sait pas que Dieu vous a faite si belle et douce, de pleines différences mais
+                    Que jadis plus d'un ange, épris d'une mortelle.
+                    Mes dames tout comme un nouveau-né c'est ainsi que je vous aime.
+
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-10">3 Mar, 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fin poeme compagnon  -->
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/toi.jpg"
+                    alt="image toi"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Slam</button>
+
+                  <h3>
+                    <a href="toi.html" class="h3"
+                      >Toi</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Ne penser qu'à un juste ressenti toujours l'âme refoulée
+                    Par un chagrin agréable
+                    Toujours voir et ressentir la même chose
+                    Matin, soir, nuit et jour :
+                    C'est à quoi on ressemble quand on aime
+                    Voilà le délice de l'amour.
+                    Quitter sa mie avec tristesse Et vouloir être demain
+                    La revoir dans une douce euphorie, Trembler en lui prenant la main.
+                    Ne parler que pour dire, j'aime, Le répéter le long du jour,
+                    Dire la même chose le lendemain.
+                    Voilà la félicité de l'amour.
+                    Être considéré comme le plus grand bien la plus facile de toutes les faveurs, ressentir une douleur extrême avec une touche de sa sévérité.
+                    Pleurer, rire, espérer, craindre,
+                    Alternance de plaisir et de douleur
+                    Si c'est une mauvaise chose, dois-je m'en plaindre?
+                    Voilà le tendre sens du : I LoVe U
+                    
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-25">25 Oct , 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/fairev.jpg"
+                    alt="Faire vibrer les cordes"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Poeme</button>
+
+                  <h3>
+                    <a href="fairev.html" class="h3"
+                      >Faire vibrer les cordes</a>
+                  </h3>
+
+                  <p class="blog-text">
+                    Faire vibrer les cordes en harmonie en physique théorique et pratique est assez facile, mais faire vibrer les sentiments de deux personnes dans un même rythme et intensité c'est <br> une théorie à laquelle je n'ai encore trouvé d'expert que vous deux. <br>
+                    Tout comme dans chaque expérience impliquant un mélange ou autre ... <br>
+                    une chose dans chaque théorie à éviter c'est les mouvements brusque. 
+
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-15">15 Avr, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/dmes.jpg"
+                    alt="image leslie"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Slam</button>
+
+                  <h3>
+                    <a href="mesdames.html" class="h3"
+                      >je vous aime MESDAMES</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    J'aime deux mains gracieuses et blanches, Deux grands sourcils arqués sur des cils longs;
+                    J'aime un front haut, des cheveux châtains-blonds;
+                    J'aime un corps droit et souple sur les hanches, Deux bras d'ivoire en de flottantes manches,
+                    Un ton charmant, merveille des salons. forte et souple,
+                    Un cœur naïf, chérissant les vallons,
+                    La paix des soirs et l'odeur des pervenches;
+                    J'aime deux yeux bien fendus et bien noirs, rouges, marron, bleus souvent baissés comme au temps des manoirs, Deux pieds petits, grosses ..., mais d'une élégance extrême;
+                    J'aime un parler un peu grave et bien doux Et tout cela, je le retrouve en vous;
+                    .Voilà pourquoi,
+                    MESDAMES, je vous aime.
+
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-03">5 Mar, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/ange.jpg"
+                    alt="image aille d'ange"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Poeme</button>
+
+                  <h3>
+                    <a href="ange.html" class="h3"
+                      >L'ange </a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    L'ange connais l'éternité, et le temps sur lui n'a plus d'emprise. Mais le temps forme l'homme, sculpte sa chair, forge son expérience...
+                    Le temps qui passe est une conscience de vie.
+                    L'éternité est bien peu de chose quand on ne peut rien faire, rien ressentir...
+                    Ni le temps
+                    Ni l'espace
+                    N'ont d'emprise sur l'ange, maître des désirs les plus fous de l'homme...
+                    Mais pour quel plaisir quand le frison n'existe plus.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-09-13">13 juil, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/pressence.jpg"
+                    alt="How to connect a React frontend with a NodeJS/Express backend"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Poeme</button>
+
+                  <h3>
+                    <a href="tapressence.html" class="h3"
+                      >Pressence</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Par une seule présence l'homme devient un dieu,  par une seule absence l'homme devient faible tel un nouveau-né sans vaccin. Par un seul câlin l'on ressent le vrai amour et par un seul regard l'on remarque enfin la beauté de l'univers, de ses infinis. Alors fait moi du mal, blesse-moi, taquine-moi, car tu n'as vraiment que moi et j'accepterai tout cela avec un grand plaisir. Par contre,
+                    NE ME QUITTE PAS.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/auteur.jpg"
+                        alt="Rodson EBANGA"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Rodson EBANGA</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-09-21">Sep 21, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <button class="btn load-more">Load More</button>  -->
+          </div>
+
+          <!--
+          - ASIDE
+        -->
+
+          <div class="aside">
+            <div class="topics">
+              <h2 class="h2">Topics</h2>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+
+                <p>Base de données</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="accessibility-outline"></ion-icon>
+                </div>
+
+                <p>Accessibilité site web🥰</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <p>Performance du Web</p>
+              </a>
+            </div>
+
+            <div class="tags">
+              <h2 class="h2">Tags</h2>
+
+              <div class="wrapper">
+                <button class="hashtag">#poeme</button>
+                <button class="hashtag">#slam</button>
+                <button class="hashtag">#ecriture</button>
+                <button class="hashtag">#texte</button>
+                <button class="hashtag">#declaretion</button>
+                <button class="hashtag">#citation</button>
+              </div>
+            </div>
+
+            <div id="Contact" class="contact">
+              <h2 class="h2">Parlons-en</h2>
+
+              <div class="wrapper">
+                <p>
+                  Vous souhaitez me contacter ? N'hesiter pas a me laisser un message.
+                </p>
+
+                <ul class="social-link">
+                  <!-- <li>
+                    <a href="Brice Rodson EBANGA#9838" class="icon-box discord">
+                      <ion-icon name="logo-discord"></ion-icon>
+                    </a>
+                  </li> -->
+
+                  <li>
+                    <a href="https://twitter.com/EbangaRodson" class="icon-box twitter">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.instagram.com/rodson_ebanga/" class="icon-box instagram">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="newsletter">
+              <h2 class="h2">Hobby</h2>
+
+              <div class="wrapper">
+                <ul class="social-link">
+              
+
+                  <li>
+                    <a  class="icon-box twitter">
+                      <ion-icon name="reader-outline"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a  class="icon-box instagram">
+                      <ion-icon name="restaurant-outline"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a  class="icon-box barbell">
+                      <ion-icon name="barbell-outline"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a  class="icon-box barbell">
+                      <ion-icon name="image-outline"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a  class="icon-box barbell">
+                      <ion-icon name="musical-notes-outline"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+
+
+                <!-- <p>
+                  Subscribe to our newsletter to be among the first to keep up
+                  with the latest updates.
+                </p>
+
+                <form action="#">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <a href="index.html" class="footer-logo">
+            <img
+              src="./assets/images/rodson.png"
+              alt="DevBlog's Logo"
+              width="250"
+              height="70"
+              class="logo-light"
+            />
+            <img
+              src="./assets/images/rhode.png"
+              alt="DevBlog's Logo"
+              width="250"
+              height="70"
+              class="logo-dark"
+            />
+          </a>
+
+      
+        </div>
+
+        <!-- <div class="wrapper"> -->
+          <!-- <p class="footer-title">Quick Links</p> -->
+<!-- 
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Advertise with us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Legal Stuff</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Privacy Notice</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms Of Use</a>
+            </li>
+          </ul>
+        </div> -->
+      <!-- </div> -->
+
+      <p class="copyright">
+        &copy; Droit d'auteur 2022
+        <a href="https://rodsonebanga.com/">Rodson_EBANGA</a>
+      </p>
+    </footer>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.min.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
